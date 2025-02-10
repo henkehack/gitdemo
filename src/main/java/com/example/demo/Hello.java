@@ -33,6 +33,10 @@ public class Hello {
         Hello hello = new Hello("World");
     }
 
+    public static void commitRel12() {
+        Hello hello = new Hello("World");
+    }
+
     public String getName2() {
         return name + "2";
     }
