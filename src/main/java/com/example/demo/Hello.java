@@ -18,4 +18,8 @@ public class Hello {
     public String getName2() {
         return name + "2";
     }
+
+    public void setName2(String name) {
+        this.name = name + "2";
+    }
 }
