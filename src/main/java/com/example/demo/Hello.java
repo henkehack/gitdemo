@@ -25,6 +25,10 @@ public class Hello {
         Hello hello = new Hello("World");
     }
 
+    public static void commit87() {
+        Hello hello = new Hello("World");
+    }
+
     public String getName2() {
         return name + "2";
     }
