@@ -21,7 +21,15 @@ public class Hello {
         this.name = name;
     }
 
+    public static void commit7() {
+        Hello hello = new Hello("World");
+    }
+
     public static void commit87() {
+        Hello hello = new Hello("World");
+    }
+
+    public static void commit9() {
         Hello hello = new Hello("World");
     }
 
