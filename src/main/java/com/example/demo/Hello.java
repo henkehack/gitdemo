@@ -29,6 +29,10 @@ public class Hello {
         Hello hello = new Hello("World");
     }
 
+    public static void commit9() {
+        Hello hello = new Hello("World");
+    }
+
     public String getName2() {
         return name + "2";
     }
