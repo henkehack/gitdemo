@@ -21,6 +21,10 @@ public class Hello {
         this.name = name;
     }
 
+    public static void commit87() {
+        Hello hello = new Hello("World");
+    }
+
     public String getName2() {
         return name + "2";
     }
