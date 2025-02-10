@@ -41,6 +41,10 @@ public class Hello {
         Hello hello = new Hello("World");
     }
 
+    public static void commit13() {
+        // nothing here
+    }
+
     public static void commitRel12() {
         Hello hello = new Hello("World");
     }
