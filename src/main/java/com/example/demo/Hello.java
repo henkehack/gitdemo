@@ -8,7 +8,9 @@ public class Hello {
     }
 
     public String getName() {
-        return name;
+        String newName = this.name;
+        newName = newName.replaceAll("[^a-zA-Z0-9]", "_");
+        return newName;
     }
 
     public void setName(String name) {
