@@ -7,6 +7,10 @@ public class Hello {
         this.name = name;
     }
 
+    public void someOtherMethod() {
+        System.out.println("Hello " + name);
+    }
+
     public String getName() {
         return name;
     }
