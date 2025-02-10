@@ -10,4 +10,8 @@ public class Hello {
     public String getName() {
         return name;
     }
+
+    public String getName2() {
+        return name + "2";
+    }
 }
